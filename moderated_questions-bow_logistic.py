@@ -135,7 +135,7 @@ def count_error(h_list, y):
             error += -log(h_list[i])
         else:
             error += -log(1-h_list[i])
-    error = -error/m
+    error = error/m
     return error
 
 
